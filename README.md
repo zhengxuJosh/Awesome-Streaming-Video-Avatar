@@ -58,166 +58,93 @@ This repository focuses on recent advances in making **video diffusion models** 
 
 ## Causal Video Generation & Streaming Architecture
 
-- **Causal Forcing: Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video Generation**  
-  ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
-  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)  
-  *arXiv 2026.02* · [Project / Code](https://thu-ml.github.io/CausalForcing.github.io/)  
-  Identifies a mathematical issue in prior self-forcing methods and proposes ODE distillation initialization with an autoregressive teacher, enabling high-quality real-time streaming on a single RTX 4090.
+- **Causal Forcing** · *arXiv 2026.02* · [Project / Code](https://thu-ml.github.io/CausalForcing.github.io/)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/thu-ml/CausalForcing?style=flat-square)  
+  Autoregressive diffusion distillation for real-time streaming on a single GPU.
 
-- **SoulX-LiveAct: Towards Hour-Scale Real-Time Human Animation with Neighbor Forcing and ConvKV Memory**  
-  ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
-  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)  
-  *arXiv 2026.03* · [Code](https://github.com/Soul-AILab/SoulX-LiveAct)  
-  ![GitHub Repo stars](https://img.shields.io/github/stars/Soul-AILab/SoulX-LiveAct?style=flat-square)
-  ![GitHub top language](https://img.shields.io/github/languages/top/Soul-AILab/SoulX-LiveAct?style=flat-square)  
-  Solves long-horizon memory bottlenecks with Neighbor Forcing and structured ConvKV memory, achieving hour-scale real-time streaming inference at 20 FPS with constant memory usage.
+- **SoulX-LiveAct** · *arXiv 2026.03* · [Code](https://github.com/Soul-AILab/SoulX-LiveAct)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/Soul-AILab/SoulX-LiveAct?style=flat-square)  
+  Hour-scale animation using Neighbor Forcing + ConvKV memory, achieving 20 FPS real-time inference.
 
-- **EchoTorrent: Towards Swift, Sustained, and Streaming Multi-Modal Video Generation**  
-  ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
-  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)  
-  *arXiv 2026.02* · [Code](https://github.com/antgroup/echomimic_v3)  
-  ![GitHub Repo stars](https://img.shields.io/github/stars/antgroup/echomimic_v3?style=flat-square)
-  ![GitHub top language](https://img.shields.io/github/languages/top/antgroup/echomimic_v3?style=flat-square)  
-  Proposes a four-part training and inference scheme, including Multi-Teacher Training and Hybrid Long Tail Forcing, to reduce streaming artifacts such as spatiotemporal degradation and lip desynchronization.
+- **EchoTorrent** · *arXiv 2026.02* · [Code](https://github.com/antgroup/echomimic_v3)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/antgroup/echomimic_v3?style=flat-square)  
+  Multi-modal streaming video generation with Multi-Teacher Training and Hybrid Long Tail Forcing.
 
-- **Towards One-step Causal Video Generation via Adversarial Self-Distillation**  
-  ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)  
-  *arXiv 2025.11*  
-  Uses Adversarial Self-Distillation (ASD) to align the student model’s n-step denoising output with its (n+1)-step version, enabling high-quality synthesis with extremely limited denoising steps.
+- **Towards One-step Causal Video Generation via Adversarial Self-Distillation** · *arXiv 2025.11*  
+  Aligns student model's n-step denoising output with (n+1)-step for high-quality synthesis with minimal steps.
 
-- **High-Fidelity Causal Video Diffusion Models for Real-Time Ultra-Low-Bitrate Semantic Communication**  
-  ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)  
-  *arXiv 2026.02*  
-  Extends a modular video diffusion framework with efficient temporal distillation to support causal synthesis under ultra-low bitrate constraints.
+- **High-Fidelity Causal Video Diffusion Models** · *arXiv 2026.02*  
+  Supports causal synthesis under ultra-low bitrate conditions.
 
 ---
 
 ## Real-Time & Streaming Talking Head Generation
 
-- **StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars**  
-  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
-  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
-  *CVPR 2026* · [Project](https://streamavatar.github.io)  
-  Converts high-fidelity non-causal diffusion models into streaming architectures with a two-stage autoregressive adaptation and acceleration framework, including block-wise causal attention.
+- **StreamAvatar** · *CVPR 2026* · [Project](https://streamavatar.github.io)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/streamavatar/streamavatar?style=flat-square)  
+  Converts high-fidelity non-causal diffusion models into streaming architectures.
 
-- **Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length**  
-  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
-  *arXiv 2025.12*  
-  A 14B-parameter framework that leverages Timestep-forcing Pipeline Parallelism and a Rolling Sink Frame Mechanism to achieve 20 FPS end-to-end generation without identity drift.
+- **Live Avatar** · *arXiv 2025.12*  
+  14B-parameter audio-driven avatar generation at 20 FPS end-to-end.
 
-- **REST: Diffusion-based Real-time End-to-end Streaming Talking Head Generation via ID-Context Caching...**  
-  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
-  *arXiv 2025.12*  
-  The first end-to-end method to achieve real-time streaming audio-driven talking head diffusion on a single GPU, enabled by a novel ID-Context Cache mechanism.
+- **REST** · *arXiv 2025.12*  
+  Real-time audio-driven talking head diffusion on a single GPU using ID-Context Cache.
 
-- **PersonaLive!: Expressive Portrait Image Animation for Live Streaming**  
-  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
-  *CVPR 2026* · [Code](https://github.com/GVCLab/PersonaLive)  
-  ![GitHub Repo stars](https://img.shields.io/github/stars/GVCLab/PersonaLive?style=flat-square)
-  ![GitHub top language](https://img.shields.io/github/languages/top/GVCLab/PersonaLive?style=flat-square)  
-  Introduces appearance distillation and a micro-chunk streaming generation paradigm, delivering robust streamable portrait animation up to 22× faster than prior methods.
+- **PersonaLive!** · *CVPR 2026* · [Code](https://github.com/GVCLab/PersonaLive)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/GVCLab/PersonaLive?style=flat-square)  
+  Micro-chunk streaming, 22× faster portrait animation.
 
-- **Knot Forcing: Taming Autoregressive Video Diffusion Models for Real-time Infinite Interactive Portrait Animation**  
-  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
-  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
-  *arXiv 2025.12* · [Code](https://github.com/HumanAIGC)  
-  Achieves infinite-sequence interactive portrait animation and stable real-time generation on consumer-grade GPUs by reducing error accumulation in causal autoregressive models.
+- **Knot Forcing** · *arXiv 2025.12* · [Code](https://github.com/HumanAIGC)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/HumanAIGC/KnotForcing?style=flat-square)  
+  Infinite-sequence interactive portrait animation on consumer GPUs.
 
-- **LLIA (Low-Latency Interactive Avatars)**  
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
-  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
-  *arXiv 2025.06* · [Project](https://meigen-ai.github.io/llia/)  
-  Uses INT8 quantization and UNet/VAE pipeline parallelism to reduce initial response latency to 140 ms, achieving 78 FPS at 384×384 resolution.
+- **LLIA** · *arXiv 2025.06* · [Project](https://meigen-ai.github.io/llia/)  
+  Low-latency INT8 quantized avatars, 78 FPS.
 
 ---
 
 ## Interactive & Full-Duplex Conversational Avatars
 
-- **LPM 1.0: Video-based Character Performance Model**  
-  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
-  ![Full-duplex](https://img.shields.io/badge/-Full--duplex-dc2626?style=flat-square)  
-  *arXiv 2026.04* · [Project](https://large-performance-model.github.io)  
-  Built on a 17B-parameter Diffusion Transformer, this is the first full-duplex video generation system capable of simultaneously driving speaking, listening, and micro-expressions over long conversational horizons.
+- **LPM 1.0** · *arXiv 2026.04* · [Project](https://large-performance-model.github.io)  
+  17B-parameter full-duplex conversational avatar system.
 
-- **EmbodiedHead: Real-Time Listening and Speaking Avatar for Conversational Agents**  
-  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
-  ![Full-duplex](https://img.shields.io/badge/-Full--duplex-dc2626?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)  
-  *arXiv 2026.04*  
-  Replaces look-ahead audio buffers with a single-stream interface and explicit per-frame listening-speaking state modulation, coupling a Rectified-Flow DiT with a differentiable renderer for rapid generation.
+- **EmbodiedHead** · *arXiv 2026.04*  
+  Single-stream listening-speaking interface with differentiable renderer.
 
-- **Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation**  
-  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
-  ![Full-duplex](https://img.shields.io/badge/-Full--duplex-dc2626?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
-  *CVPR 2026* · [Code](https://github.com/TaekyungKi/AvatarForcing)  
-  ![GitHub Repo stars](https://img.shields.io/github/stars/TaekyungKi/AvatarForcing?style=flat-square)
-  ![GitHub top language](https://img.shields.io/github/languages/top/TaekyungKi/AvatarForcing?style=flat-square)  
-  Models interactions via diffusion forcing and introduces Direct Preference Optimization (DPO) to learn expressive and vivid avatar reactions without additional labeled data.
+- **Avatar Forcing** · *CVPR 2026* · [Code](https://github.com/TaekyungKi/AvatarForcing)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/TaekyungKi/AvatarForcing?style=flat-square)  
+  Diffusion forcing + Direct Preference Optimization for expressive avatar reactions.
 
-- **ARIG: Autoregressive Interactive Head Generation for Real-time Conversations**  
-  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
-  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
-  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
-  *ICCV 2025* · [Project](https://jinyugy21.github.io/ARIG/)  
-  Formulates motion prediction as a continuous non-vector-quantized autoregressive process and uses a deep Conversational State Understanding (CSU) module to generate appropriate feedback, pauses, and interruption behaviors.
+- **ARIG** · *ICCV 2025* · [Project](https://jinyugy21.github.io/ARIG/)  
+  Autoregressive interactive head generation with deep CSU module.
 
 ---
 
 ## Contributing
 
-Please make sure your pull request follows these principles:
+- Add resources relevant to video-based streaming avatars.  
+- Prefer official project pages, paper links, and code repositories.  
+- Keep entries concise.  
+- Follow the existing table format.  
+- Avoid duplicates.  
+- For major additions, include title, venue/year, links, and a short summary.
 
-- Add resources that are relevant to **video-based streaming avatars** or closely related interactive avatar generation.
-- Prefer **official project pages**, **paper links**, and **code repositories** whenever available.
-- Keep entries concise and informative.
-- Use the existing format and place each entry in the most appropriate section.
-- Avoid duplicate entries.
-- For major additions, consider including:
-  - title
-  - venue / year
-  - official link(s)
-  - one-sentence summary
-  - optional GitHub badge(s), if the repository path is known
-
-You may also find the general [Awesome list guidelines](https://github.com/sindresorhus/awesome/blob/main/awesome.md) helpful.
+[Awesome guidelines](https://github.com/sindresorhus/awesome/blob/main/awesome.md)
 
 ---
 
 ## License
 
-This list is intended for research and educational use.
-
-If you want to open-source this repository, a common choice is the [MIT License](https://opensource.org/licenses/MIT).  
-You can add a `LICENSE` file and update this section accordingly.
+MIT License. See [LICENSE](LICENSE).
 
 ---
 
 ## Acknowledgement
 
-This repository is curated for researchers and practitioners working on:
+Curated for researchers and practitioners in:
 
-- streaming video generation
-- real-time talking head synthesis
-- interactive avatar systems
-- full-duplex conversational agents
+- streaming video generation  
+- real-time talking head synthesis  
+- interactive avatar systems  
+- full-duplex conversational agents  
 - causal video modeling
-
-If you find this repository useful, consider giving it a star.
