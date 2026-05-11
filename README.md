@@ -302,12 +302,12 @@ This repository focuses on recent advances in making **video diffusion models** 
   ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)  
   Reduces the memory footprint of long autoregressive video generation through 2-bit semantic-aware KV-cache quantization.
 
-- **Causal Forcing** · *ICML 2026 / arXiv 2026.02* · [Paper](https://arxiv.org/abs/2602.02214) · [Project / Code](https://thu-ml.github.io/CausalForcing.github.io/)  
+- **Causal Forcing** · *ICML 2026 / arXiv 2026.02* · [Paper](https://arxiv.org/abs/2602.02214) · [Project](https://thu-ml.github.io/CausalForcing.github.io/) · [Code](https://github.com/thu-ml/Causal-Forcing)  
   ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
   ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
   ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
   ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)  
-  ![GitHub Repo stars](https://img.shields.io/github/stars/thu-ml/CausalForcing?style=flat-square)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/thu-ml/Causal-Forcing?style=flat-square)  
   Autoregressive diffusion distillation for high-quality real-time interactive video generation, bridging the architectural gap between bidirectional teachers and causal AR students.
 
 - **Past- and Future-Informed KV Cache Policy with Salience Estimation in Autoregressive Video Diffusion** · *arXiv 2026.01* · [Paper](https://arxiv.org/abs/2601.21896)  
@@ -532,6 +532,13 @@ This repository focuses on recent advances in making **video diffusion models** 
   ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
   Flow-matching autoregressive dyadic talking-head model for streaming dual-track audio input, targeting sub-100ms system latency.
 
+- **UniLS** · *arXiv 2025.12* · [Paper](https://arxiv.org/abs/2512.09327) · [Project](https://xg-chu.site/project_unils/) · [Code](https://github.com/xg-chu/UniLS)  
+  ![Full-duplex](https://img.shields.io/badge/-Full--duplex-dc2626?style=flat-square)
+  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
+  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/xg-chu/UniLS?style=flat-square)  
+  End-to-end speaking-and-listening avatar generation driven only by dual-track audio, improving listener motion diversity and naturalness.
+
 - **FLEXI: Benchmarking Full-duplex Human-LLM Speech Interaction** · *arXiv 2025.09* · [Paper](https://arxiv.org/abs/2509.22243) · [Code](https://github.com/ChristineCHEN274/FLEXI)  
   ![Benchmark](https://img.shields.io/badge/-Benchmark-6f42c1?style=flat-square)
   ![Full-duplex](https://img.shields.io/badge/-Full--duplex-dc2626?style=flat-square)
@@ -581,6 +588,12 @@ This repository focuses on recent advances in making **video diffusion models** 
   ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
   Diffusion-based listening-head generation with hybrid explicit and implicit motion modeling for expressive non-verbal listener responses.
 
+- **DualTalk** · *CVPR 2025* · [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Peng_DualTalk_Dual-Speaker_Interaction_for_3D_Talking_Head_Conversations_CVPR_2025_paper.html) · [Project](https://ziqiaopeng.github.io/dualtalk) · [Code](https://github.com/ZiqiaoPeng/DualTalk)  
+  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
+  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/ZiqiaoPeng/DualTalk?style=flat-square)  
+  Multi-round dual-speaker 3D talking-head generation with seamless speaking/listening role transitions and a 50-hour interaction dataset.
+
 - **LLM-driven Multimodal and Multi-Identity Listening Head Generation** · *CVPR 2025* · [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Lai_LLM-driven_Multimodal_and_Multi-Identity_Listening_Head_Generation_CVPR_2025_paper.pdf) · [Project](https://www.sysu-hcp.net/projects/Multimodal/161.html)  
   ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
   ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
@@ -595,7 +608,7 @@ This repository focuses on recent advances in making **video diffusion models** 
   ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
   ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
   Early face-to-face conversational avatar framework using NeRF to model both speaker and listener, including responsive listener behavior conditioned on visual and acoustic cues.
-  
+
 ---
 
 ## Contributing
