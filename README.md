@@ -34,9 +34,15 @@ This repository focuses on recent advances in making **video diffusion models** 
 - [Causal Video Generation \& Streaming Architecture](#causal-video-generation--streaming-architecture)
 - [Real-Time \& Streaming Talking Head Generation](#real-time--streaming-talking-head-generation)
 - [Interactive \& Full-Duplex Conversational Avatars](#interactive--full-duplex-conversational-avatars)
-- [Streaming Model Resolution \& Modes](docs/streaming-model-resolution-modes.md)
+- [Additional Analysis](#additional-analysis)
 - [Contributing](#contributing)
 - [License](#license)
+
+---
+
+## Additional Analysis
+
+- [Streaming Model Resolution & Modes](docs/streaming-model-resolution-modes.md): a practical comparison of reported resolutions, streaming modes, latency, and deployment trade-offs across current streaming avatar models.
 
 ---
 
