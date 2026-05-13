@@ -217,6 +217,13 @@ This repository focuses on recent advances in making **video diffusion models** 
 
 ## Causal Video Generation & Streaming Architecture
 
+- **Forcing-KV: Hybrid KV Cache Compression for Efficient Autoregressive Video Diffusion Models** · *arXiv 2026.05* · [Paper](https://arxiv.org/pdf/2605.09681) [Project](https://zju-jiyicheng.github.io/Forcing-KV-Page/) [Code](https://github.com/zju-jiyicheng/Forcing-KV)
+    ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
+  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square) ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)  
+  ![GitHub Repo stars](https://img.shields.io/github/stars/zju-jiyicheng/Forcing-KV?style=flat-square)
+  Seperates attention heads into static and dynamic and applies different compression and pruning techniques on the KV cache based on this.
+  
+
 - **Speculative Decoding for Autoregressive Video Generation** · *arXiv 2026.04* · [Paper](https://arxiv.org/abs/2604.17397)  
   ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
   ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
@@ -422,6 +429,13 @@ This repository focuses on recent advances in making **video diffusion models** 
 ---
 
 ## Real-Time & Streaming Talking Head Generation
+
+- **AsymTalker: Identity-Consistent Long-Term Talking Head Generation via Asymmetric Distillation** · *arXiv 2026.05* ·
+ [Paper](https://arxiv.org/pdf/2605.02948)  
+![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
+  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
+  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
+  66 FPS video generation consisent up to 10 minutes using a aysmmetric teacher and student model with the reference frame transformed into psuedo-video for temporal dynamics. 
 
 - **Hallo-Live: Real-Time Streaming Joint Audio-Video Avatar Generation with Asynchronous Dual-Stream and Human-Centric Preference Distillation** · *arXiv 2026.04* · [Paper](https://arxiv.org/abs/2604.23632) · [Code](https://github.com/fudan-generative-vision/Hallo-Live)  
   ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
