@@ -228,6 +228,13 @@ This repository focuses on recent advances in making **video diffusion models** 
 
 ## Causal Video Generation & Streaming Architecture
 
+- **Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models** · *arXiv 2026.06* · [Paper](https://arxiv.org/abs/2606.25473)  
+  ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
+  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
+  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
+  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)  
+  Extends rectified consistency models to autoregressive video diffusion, combining teacher-forcing consistency-model initialization with self-forcing distribution matching for few-step streaming video generation and interactive world models.
+
 - **Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation** · *arXiv 2026.05* · [Paper](https://arxiv.org/abs/2605.15141) · [Code](https://github.com/thu-ml/Causal-Forcing)  
   ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
   ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
@@ -411,6 +418,13 @@ This repository focuses on recent advances in making **video diffusion models** 
   ![GitHub Repo stars](https://img.shields.io/github/stars/BigAandSmallq/SAD?style=flat-square)  
   Adversarial Self-Distillation aligns a student model’s n-step and n+1-step outputs for stable one-step or few-step causal video synthesis.
 
+- **MotionStream: Real-Time Video Generation with Interactive Motion Controls** · *arXiv 2025.11* · [Paper](https://arxiv.org/abs/2511.01266)  
+  ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
+  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
+  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
+  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)  
+  Distills motion-conditioned video generation into a causal self-forcing student with sliding-window attention, attention sinks, and rolling KV cache, enabling interactive trajectory and camera control at streaming speed.
+
 - **Self-Forcing++: Towards Minute-Scale High-Quality Video Generation** · *arXiv 2025.10* · [Paper](https://arxiv.org/abs/2510.02283) · [Project](https://self-forcing-plus-plus.github.io/) · [Code](https://github.com/justincui03/Self-Forcing-Plus-Plus)  
   ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
   ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)  
@@ -577,6 +591,17 @@ This repository focuses on recent advances in making **video diffusion models** 
   ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
   Compresses multi-step audio-driven avatar diffusion into a one-step generator through progressive distillation for fast talking-avatar synthesis.
 
+- **EmbedTalk: Triplane-Free Talking Head Synthesis using Embedding-Driven Gaussian Deformation** · *arXiv 2026.03* · [Paper](https://arxiv.org/abs/2603.07604)  
+  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
+  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
+  3D Gaussian talking-head synthesis method that replaces tri-plane encodings with compact learned embeddings for speech-driven Gaussian deformation, reporting over 60 FPS on a mobile RTX 2060 GPU.
+
+- **TempoSyncDiff: Distilled Temporally-Consistent Diffusion for Low-Latency Audio-Driven Talking Head Generation** · *arXiv 2026.03* · [Paper](https://arxiv.org/abs/2603.06057)  
+  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
+  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
+  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
+  Reference-conditioned latent diffusion framework with teacher-student distillation, identity anchoring, and temporal regularization for low-latency audio-driven talking-head generation under constrained compute.
+
 - **EARTalking: End-to-end GPT-style Autoregressive Talking Head Synthesis with Frame-wise Control** · *arXiv 2026.03* · [Paper](https://arxiv.org/abs/2603.20307)  
   ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
   ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
@@ -632,9 +657,22 @@ This repository focuses on recent advances in making **video diffusion models** 
   ![GitHub Repo stars](https://img.shields.io/github/stars/aaxwaz/TalkingMachines?style=flat-square)  
   Real-time FaceTime-style audio-driven video system that distills bidirectional video diffusion into a sparse causal AR student for infinite streaming.
 
+- **GaussianTalker: Real-Time High-Fidelity Talking Head Synthesis with Audio-Driven 3D Gaussian Splatting** · *arXiv 2024.04* · [Paper](https://arxiv.org/abs/2404.16012)  
+  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
+  ![Talking Head](https://img.shields.io/badge/-Talking%20Head-64748b?style=flat-square)  
+  Audio-driven 3D Gaussian Splatting framework that deforms a canonical Gaussian head representation for pose-controllable talking-head synthesis, reporting rendering speeds up to 120 FPS.
+
 ---
 
 ## Interactive & Full-Duplex Conversational Avatars
+
+- **Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models** · *arXiv 2026.06* · [Paper](https://arxiv.org/abs/2606.25041)  
+  ![Full-duplex](https://img.shields.io/badge/-Full--duplex-dc2626?style=flat-square)
+  ![Interactive](https://img.shields.io/badge/-Interactive-f59e0b?style=flat-square)
+  ![Streaming](https://img.shields.io/badge/-Streaming-0ea5e9?style=flat-square)
+  ![Real-time](https://img.shields.io/badge/-Real--time-16a34a?style=flat-square)
+  ![Audio-Visual](https://img.shields.io/badge/-Audio--Visual-0891b2?style=flat-square)  
+  Native-streaming interactive foundation model that represents language, audio, and video as interleaved input/output tokens in a single block-causal Transformer, targeting sub-second full-duplex audio-visual interaction.
 
 - **StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars** · *CVPR 2026 / arXiv 2025.12* · [Paper](https://arxiv.org/abs/2512.22065) · [Project](https://streamavatar.github.io/)  
   ![Causal](https://img.shields.io/badge/-Causal-1f6feb?style=flat-square)
